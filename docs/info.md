@@ -1,20 +1,19 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Explain how your project works
+Set a code for your precious safe!
+**Controls**
+* Pin 1 is used to reset the safe. 
+* Pin 7 is used to set your code (ON = set, OFF = locked)
+* Pins 2 to 4 are used to set the code.
+* The clock button is used to enter your code.
 
 ## How to test
 
-Explain how to use your project
+Set the clock to manual mode.
+Set your desired code using pins 2 to 4. Once you've done so, toggle pin 7 to ON, press the clock button then toggle pin 7 back OFF--the safe is now set!
+Turn ON pin 1, and press the clock button. The seven segment display should show "L" (for locked).
+Next turn OFF pin 1 to begin entering codes.  
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None
