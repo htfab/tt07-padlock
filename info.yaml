@@ -2,7 +2,7 @@
 project:
   wokwi_id:     397142450561071105       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "Padlock"                # Project title
-  author:       "J. Rosenthal (TT02)"    # Your name
+  author:       "J. Rosenthal & htfab"   # Your name
   discord:      "jamesr#0350"            # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Set a code for your precious safe"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
